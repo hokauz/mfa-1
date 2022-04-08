@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  // inputs
+  // outputs
   title = 'mfa1';
+
+  constructor() {
+    this.load();
+  }
+
+  load() {
+    // inject script url web component
+    // define tag
+  }
 }
